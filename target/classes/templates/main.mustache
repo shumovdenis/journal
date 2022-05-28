@@ -1,0 +1,36 @@
+<html>
+<body>
+<div>Fill to add</div>
+<div>
+    <form method="post">
+        <input type="text" name="name" placeholder="Enter name" >
+        <input type="text" name="surname" placeholder="Enter surname">
+        <input type="text" name="middlename" placeholder="Enter middlename">
+        <input type="date" name="bDay" placeholder="Enter bDay">
+        <input type="text" name="group" placeholder="Enter group">
+        <button type="submit"> Add </button>
+    </form>
+</div>
+
+<div>Select to delete</div>
+<div>
+    <form method="post" action="delete">
+        <input type="text" name="id" placeholder="Enter id">
+        <button type="submit"> Delete</button>
+    </form>
+
+</div>
+
+<div>Students</div>
+{{#students}}
+    <div>
+        <b>{{id}}</b>
+        <i>{{name}}</i>
+        <span>{{surname}}</span>
+        <span>{{middlename}}</span>
+        <b>{{bDay}}</b>
+        <span>{{group}}</span>
+    </div>
+{{/students}}
+</body>
+</html>
