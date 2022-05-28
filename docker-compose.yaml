@@ -12,10 +12,11 @@ services:
 
 
   app:
+    restart: on-failure
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: journal_app
+    container_name: journal_students_app
     ports:
       - "8080:8080"
     links:

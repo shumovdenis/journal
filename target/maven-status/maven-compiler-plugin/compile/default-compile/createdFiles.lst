@@ -1,0 +1,5 @@
+ru\shumovdenis\journal\JournalApplication.class
+ru\shumovdenis\journal\service\StudentService.class
+ru\shumovdenis\journal\repository\StudentRepo.class
+ru\shumovdenis\journal\controller\MainController.class
+ru\shumovdenis\journal\entity\Student.class

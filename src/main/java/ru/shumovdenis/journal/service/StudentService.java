@@ -27,7 +27,7 @@ public class StudentService {
                     result.getInt(1),
                     result.getString(2),
                     result.getString(3),
-                    result.getString(5),
+                    result.getString(4),
                     result.getDate(5),
                     result.getString(6)
             );
